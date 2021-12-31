@@ -7,7 +7,7 @@
     <Row>
       <Section>
         <IconButton class="material-icons">menu</IconButton>
-        <Title>AP-Viz</Title>
+        <Title>AP Viz</Title>
       </Section>
       <Section align="end" toolbar>
         <IconButton class="material-icons">file_download</IconButton>
@@ -39,7 +39,15 @@
   }
  
   .app-body {
-    padding: 0 10px;
+    padding: 0 50px;
+    max-width: 1500px;
+    margin: auto;
+  }
+  @media (max-width: 480px) {
+    .app-body {
+      padding: 0 20px;
+      margin: auto;
+    }
   }
 </style>
 

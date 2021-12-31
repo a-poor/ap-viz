@@ -1,0 +1,99 @@
+{
+  "tableau": [
+    "#1f77b4",
+    "#ff7f0e",
+    "#2ca02c",
+    "#d62728",
+    "#9467bd",
+    "#8c564b",
+    "#e377c2",
+    "#7f7f7f",
+    "#bcbd22",
+    "#17becf"
+  ],
+  "eventTypes": {
+    "job": {
+      "name": "Job",
+      "color": "#1f77b4"
+    },
+    "education": {
+      "name": "Education",
+      "color": "#ff7f0e"
+    },
+    "project": {
+      "name": "Project",
+      "color": "#2ca02c"
+    },
+    "blogPost": {
+      "name": "Blog Post",
+      "color": "#d62728"
+    }
+  },
+  "events": [
+    {
+      "type": "job",
+      "start": "2014-10",
+      "end": "2017-08",
+      "title": "Assistant to the Executive Creative Director",
+      "company": "CHRLX",
+      "companyLink": "https://chrlx.com",
+      "location": "New York, NY",
+      "description": null
+    },
+    {
+      "type": "job",
+      "start": "2020-03",
+      "end": "2021-04",
+      "title": "Data Analyst",
+      "company": "Freelance",
+      "location": "Remote",
+      "description": null
+    },
+    {
+      "type": "job",
+      "start": "2021-04",
+      "title": "Full Stack Developer",
+      "company": "Command Credit Corp.",
+      "companyLink": "https://commandcredit.net",
+      "location": "Remote",
+      "description": null
+    },
+
+    {
+      "type": "education",
+      "end": "2021-01",
+      "name": "Amazon Web Services",
+      "location": "Remote",
+      "degree": "Certified Cloud Practitioner",
+      "description": null
+    },
+    {
+      "type": "education",
+      "start": "2020-01",
+      "end": "2020-03",
+      "name": "Metis Data Science Bootcamp",
+      "location": "New York, NY",
+      "degree": "Certificate in Data Science",
+      "description": null
+    },
+    {
+      "type": "education",
+      "start": "2017-09",
+      "end": "2019-12",
+      "name": "Sarah Lawrence College",
+      "location": "Bronxville, NY",
+      "degree": "BA in Computer Science",
+      "description": null
+    },
+    {
+      "type": "education",
+      "start": "2012-09",
+      "end": "2014-06",
+      "name": "University of Connecticut",
+      "location": "Storrs, CT",
+      "description": null
+    },
+
+    {}
+  ]
+}
